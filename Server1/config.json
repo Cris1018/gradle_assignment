@@ -1,0 +1,17 @@
+{
+    "map": "map.txt",
+    "lives": 2,
+    "speed": 1,
+    "frighten": 9,
+    "frightenedByDrunkWaka": 5,
+    "modeLengths": [
+        7,
+        20,
+        7,
+        20,
+        5,
+        20,
+        5,
+        1000
+    ]
+}
