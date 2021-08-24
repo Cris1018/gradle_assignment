@@ -123,33 +123,33 @@ public class Livings{
         return false;
     }
 
-    public void moveLeft(List<Wall> walls){
-        this.setDirection(Direction.L);
-        if (!colLeftWall(walls)){
-            this.x-=this.speed; 
-        }
-    }
+    // public void moveLeft(List<Wall> walls){
+    //     this.setDirection(Direction.L);
+    //     if (!colLeftWall(walls)){
+    //         this.x-=this.speed; 
+    //     }
+    // }
 
-    public void moveRight(List<Wall> walls){
-        this.setDirection(Direction.R);    
-        if (!colRightWall(walls)){
-            this.x+=this.speed;
-        }
-    }
+    // public void moveRight(List<Wall> walls){
+    //     this.setDirection(Direction.R);    
+    //     if (!colRightWall(walls)){
+    //         this.x+=this.speed;
+    //     }
+    // }
 
-    public void moveUp(List<Wall> walls){
-        this.setDirection(Direction.U);
-        if (!colUpWall(walls)){
-            this.y-=this.speed; 
-        }
-    }
+    // public void moveUp(List<Wall> walls){
+    //     this.setDirection(Direction.U);
+    //     if (!colUpWall(walls)){
+    //         this.y-=this.speed; 
+    //     }
+    // }
 
-    public void moveDown(List<Wall> walls){
-        this.setDirection(/*"d"*/Direction.D);
-        if (!colDownWall(walls)){
-            this.y+=this.speed;  
-        }
-    }
+    // public void moveDown(List<Wall> walls){
+    //     this.setDirection(/*"d"*/Direction.D);
+    //     if (!colDownWall(walls)){
+    //         this.y+=this.speed;  
+    //     }
+    // }
 
     /**
      * read and parse the map
